@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/report.css">
+</head>
+
+<body>
+    <header id="header-container"></header>
+    <div class="container">
+        <div class="tab-container">
+            <button class="tab" data-tab="tab1" onclick="openTab('tab1')">SUMMARY</button>
+            <button class="tab" data-tab="tab2" onclick="openTab('tab2')">THE ANSWER</button>
+        </div>
+        <div class="tab-content" id="tab1-content">
+            <div class="content-1">
+                <div class="tab-content-title">
+                    <div class="title-name">ID:</div>
+                    <div class="title-summary">2 answers</div>
+                </div>
+                <div class="tab-content-id">
+                    <div>2021010309</div>
+                    <div>2021010115</div>
+                </div>
+            </div>
+
+            <div class="content-2">
+                <div class="tab-content-title">
+                    <div class="title-name">Full name:</div>
+                    <div class="title-summary">2 answers</div>
+                </div>
+                <div class="tab-content-id">
+                    <div>Zero Zero</div>
+                    <div>Zero 1 and</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab2-content">
+            <div class="first">
+                <div class="firstp">
+                    <p>Question 1: Boiling water is 100 degrees Celsius?</p>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="TRUE" name="fav_language_1" value="TRUE">
+                    <label for="html">TRUE</label><br>
+                    <input type="radio" id="FALSE" name="fav_language_1" value="FALSE">
+                    <label for="html">FALSE</label><br>
+                </div>
+            </div>
+            <div class="first">
+                <div class="firstp">
+                    <p>Question 1: Boiling water is 100 degrees Celsius?</p>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="TRUE" name="fav_language_2" value="TRUE">
+                    <label for="html">TRUE</label><br>
+                    <input type="radio" id="FALSE" name="fav_language_2" value="FALSE">
+                    <label for="html">FALSE</label><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/report.js"></script>
+</body>
+
+</html>
