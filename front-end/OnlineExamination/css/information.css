@@ -1,0 +1,82 @@
+.main-title {
+    padding: 1rem;
+}
+
+main {
+    width: 50rem;
+    height: 22rem;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 0.75rem;
+    position: absolute;
+    /* Set position to absolute */
+    top: 50%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Center precisely */
+}
+
+.marker {
+    display: inline-block;
+}
+
+.li {
+    text-align: webkit-match-parent;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.main-title {
+    display: inline-block;
+}
+
+.Information p,
+.Information {
+    height: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    text-align: center;
+}
+
+.input-code {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.input-code p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(88, 120, 191, 1);
+}
+
+.input-code input {
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.submit-button {
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(88, 120, 191, 1);
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
+}
